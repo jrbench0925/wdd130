@@ -1,0 +1,58 @@
+@import url('https://fonts.google.com/css2?family=font-lato&family=optional-Montserrat&display=swap');
+
+:root{
+    --primary-color: #60AFFF;
+    --secondary-color: #3066BE;
+    --accent1-color: #28C2FF;
+    --accent2-color: #2AF5FF;
+
+    --heading-font: 'Lato', serif;
+    --paragraph-font: 'Montserrat', serif;
+
+    --nav-background-color: #68AFFF;
+    --nav-link-color: #3066BE;
+    --nav-hover-link-color: #28C2FF;
+    --nav-hover-background-color: #2AF5FF;
+}
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nave a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var (--nav-hover-background-color);
+}
