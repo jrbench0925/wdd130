@@ -23,12 +23,12 @@ body{
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent1-color);
 }
 
 header {
     padding: 20px;
-    background-color: var(--accent-color);
+    background-color: var(--secondary-color);
 }
 
 p {
