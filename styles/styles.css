@@ -13,7 +13,7 @@ nav a {
     padding: 20px;
 }
 h1{
-    color: steelblue;
+    color: skyblue;
     padding: 1rem;
 }
 main {
@@ -52,9 +52,9 @@ footer {
 /* Class Selectors */
 .box {
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 5px solid lightskyblue;
     padding: 1rem;
-    background-color: #ddd; /*find a color that works */
+    background-color: lightblue;
     color: #000 
 }
 aside{
