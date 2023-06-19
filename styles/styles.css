@@ -41,8 +41,9 @@ aside img{
 }
 aside h2 {
     position: absolute;
-    top: 110px;
-    left: 0;
+    top: 25px;
+    left: 125px;
+    color: white;
 }
 footer {
     margin-top: 1em;
