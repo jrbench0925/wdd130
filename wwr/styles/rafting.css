@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+:root {
+    --primary-color: #60AFFF;
+    --secondary-color: #3066BE;
+    --accent1-color: #28C2FF;
+    --accent2-color: #2AF5FF;
+
+    --heading-font: 'Lato', serif;
+    --paragraph-font: 'Montserrat', serif;
+
+    --nav-background-color: #68AFFF;
+    --nav-link-color: #3066BE;
+    --nav-hover-link-color: #28C2FF;
+    --nav-hover-background-color: #2AF5FF;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: black;
+    font-weight: bold;
+}
+p {
+    font-family: var(--paragraph-font);
+    color: black;
+}
+.hero { 
+    position:relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 90%;
+    padding: 40px;
+}
+.hero h1 {
+    position: absolute;
+    top: 100px;
+    left: 550px;
+    color: black;
+    text-align: center;
+    border: 1px;
+    background-color: var(--primary-color);
+}
+.purpose {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    margin-left: 75px;
+    top: 200px;
+    background-color: var(--primary-color);
+    opacity: 80%;
+    place-content: center;
+    color: black;
+} 
+.purpose img{
+    float: right;
+    width: 180px;
+    height: auto;
+}
+header {
+    align-items: center;
+    display: grid;
+    text-align: left;
+}
+footer {
+    display: grid;
+    text-align: left;
+}
+.images div {
+    display: grid;
+}
+.images img {
+    width: 500px;
+}
