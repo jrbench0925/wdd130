@@ -26,16 +26,16 @@ p {
     position:relative;
 }
 .hero img {
-    display: block;
     width: 100%;
     height: auto;
     opacity: 90%;
     padding: 40px;
+    float: right;
 }
 .hero h1 {
     position: absolute;
-    top: 100px;
-    left: 550px;
+    top: 90px;
+    left: 470px;
     color: black;
     text-align: center;
     border: 1px;
@@ -43,9 +43,9 @@ p {
 }
 .purpose {
     position: absolute;
-    max-width: 100%;
+    max-width: 75%;
     height: auto;
-    margin-left: 75px;
+    margin-left: 120px;
     top: 200px;
     background-color: var(--primary-color);
     opacity: 80%;
