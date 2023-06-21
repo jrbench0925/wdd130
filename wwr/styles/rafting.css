@@ -72,3 +72,6 @@ footer {
 .images img {
     width: 500px;
 }
+nav {
+    text-decoration: none;
+}
