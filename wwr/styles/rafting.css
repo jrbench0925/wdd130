@@ -58,9 +58,13 @@ p {
     height: auto;
 }
 header {
-    align-items: center;
     display: grid;
+    grid-template-columns: 1fr 2 fe;
+    align-items: center;
     text-align: left;
+}
+.navigation{
+    display: flex;
 }
 footer {
     display: grid;
