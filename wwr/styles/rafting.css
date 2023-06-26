@@ -23,7 +23,7 @@ p {
     color: black;
 }
 .hero { 
-    position:relative;
+    position: relative;
 }
 .hero img {
     width: 100%;
@@ -58,13 +58,16 @@ p {
     height: auto;
 }
 header {
-    display: grid;
-    grid-template-columns: 1fr 2 fe;
     align-items: center;
-    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
 }
 .navigation{
     display: flex;
+}
+.navigation a{
+    padding: 5px;
 }
 footer {
     display: grid;
