@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: black;
     font-weight: bold;
+    text-align: center;
 }
 p {
     font-family: var(--paragraph-font);
@@ -63,21 +64,49 @@ header {
     grid-template-columns: 1fr 1fr;
     text-align: center;
 }
+header, footer{
+    max-width: 840px;
+    margin: 2rem auto;
+}
 .navigation{
     display: flex;
 }
 .navigation a{
     padding: 5px;
 }
+.history div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 10px;
+}
+.history img{
+    padding: 15px;
+    border: 30px;
+}
 footer {
     display: grid;
-    text-align: left;
+    grid-template-columns: 1fr 1fr;
+    text-align: right;
+}
+.socialmedia nav{
+    display: flex;
+}
+figure{
+    padding: 10px;
+    text-align: center;
+}
+.images{
+    padding: 5px;
 }
 .images div {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    place-content: center;
 }
 .images img {
-    width: 500px;
+    width: 180px;
+    border: 20px;
 }
 footer a {
     text-decoration: none;
