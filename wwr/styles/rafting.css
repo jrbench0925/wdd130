@@ -63,7 +63,7 @@ header {
     grid-template-columns: 1fr 1fr;
     text-align: center;
 }
-header, footer{
+header, .grid, footer{
     max-width: 840px;
     margin: 2rem auto;
 }
