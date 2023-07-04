@@ -19,18 +19,18 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     text-align: center;
 }
+
 p {
     font-family: var(--paragraph-font);
     color: black;
-    font-weight: bold;
 }
 
 a {
     text-decoration: none;
     font-family: var(--paragraph-font);
     font-size: larger;
-
 }
+
 .hero { 
     position: relative;
 }
@@ -50,6 +50,7 @@ a {
     border: 10px;
     background-color: var(--primary-color);
 }
+
 .purpose {
     position: absolute;
     max-width: 750px;
@@ -60,6 +61,7 @@ a {
     place-content: center;
     border-radius: 20px;
 } 
+
 .purpose img{
     float: right;
     width: 180px;
@@ -75,14 +77,15 @@ a {
     width: 100%;
     padding-bottom: 15px;
 }
+
 header {
     align-items: center;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1.5fr;
     text-align: center;
 }
 
-header, .grid, footer{
+header, .grid, footer {
     max-width: 840px;
     margin: 1rem auto;
 }
@@ -92,7 +95,7 @@ header, .grid, footer{
     padding: 35px;
 }
 .navigation a{
-    padding: 5px;
+    padding: 20px;
 }
 
 .navigation a:hover {
