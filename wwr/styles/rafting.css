@@ -29,7 +29,7 @@ a {
     text-decoration: none;
     font-family: var(--paragraph-font);
     font-size: larger;
-    font-weight: bold;
+    font-weight: bolder;
 }
 .hero { 
     position: relative;
@@ -39,7 +39,7 @@ a {
     display: block;
     width: 100%;
     height: auto;
-    opacity: 80%;
+    opacity: 60%;
 }
 
 .hero h1 {
