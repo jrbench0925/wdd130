@@ -346,3 +346,13 @@ table, th, td {
     color: var(--nav-hover-link-color);
     text-decoration: underline;
 }
+
+.newsletter { 
+    width: 650px;
+    margin: 25px auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: lightskyblue;
+    display: grid;
+}
