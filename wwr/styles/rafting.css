@@ -189,7 +189,7 @@ footer a {
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    background-color: lightskyblue;
+    background-color: var(--primary-color);
     display: grid;
 }
 fieldset {
@@ -364,4 +364,23 @@ table, th, td {
     opacity: 90%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+}
+
+.homepics div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 5px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+}
+
+.homepics img {
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.homepics p {
+    font-size: 1.3rem;
+    font-weight: bold;
 }
