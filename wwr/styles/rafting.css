@@ -348,11 +348,20 @@ table, th, td {
 }
 
 .newsletter { 
-    width: 650px;
+    width: 800px;
     margin: 25px auto;
     padding: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, .2);
     border-radius: 10px;
     background-color: lightskyblue;
     display: grid;
+}
+
+.homepage img {
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 90%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
